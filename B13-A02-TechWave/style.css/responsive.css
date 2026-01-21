@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     
+    
    
 }
 
@@ -97,6 +98,7 @@ h1 {
     margin-bottom: 10px;
     letter-spacing: 2px;
     color: white;
+  
 }
 .btn-spotify {
     background-color: #930c93;
@@ -126,6 +128,38 @@ h1 {
     background: transparent;
     border: 1px solid #00ff88;
 }
+.about-section {
+    background-color:  rgb(21, 5, 37);
+    text-align: center;
+    color: rgb(111, 110, 107);
+    padding: 50px 0;
+   padding-top: 0px;
+   
+}
+.section-title {
+    font-size: 2.5rem;
+    color: white;
+    padding-top: 20px;
+
+}
+.podcast-stats {
+    border: 1px solid ;
+    border-bottom: 1px solid ;
+    text-align: center;
+    gap: 20px;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  
+}
+
+
 
 
 
